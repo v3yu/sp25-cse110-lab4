@@ -1,0 +1,2 @@
+1. The type of num1 and num2 are strings, so the add operator concatenates them instead of adding them.
+2. To fix this I used the Number() function to cast both num1 and num2 to numbers, which I store in local variables which are used instead of num1 and num2 to calculate the sum.
